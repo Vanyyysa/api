@@ -1,6 +1,6 @@
 "# api" 
 
-JSON POST with Database Integration
+##JSON POST with Database Integration
 
 Clients can use this JSON POST API endpoint to provide structured data to a server in order to create or change records. The request body sends JSON data, which makes it versatile and simple to work with. After processing, the server delivers an HTTP status code and any required JSON. It can be used for secure user registration, data changes, and bespoke workflows. Endpoint requirements and error-handling processes should be documented properly.
 
@@ -130,7 +130,7 @@ There are no special fields in this payload. It might be used to retrieve or pri
 
 ## JSON Payload name change:
 
- Request payload:
+Request payload:
  {
 "id":1, 
 "lname":"wick", 
@@ -152,7 +152,7 @@ This payload is used to delete a name record based on the "id" value given. It s
 
 ## JSON Payload postName:
 
-- Response payload:
+Response payload:
 {
          "status":"success","data":null
 }
@@ -161,7 +161,7 @@ This payload is used to delete a name record based on the "id" value given. It s
 
 ## JSON Payload printName:
 
-- Response payload:
+Response payload:
 {
          "status":"success","data":["lname":"hortizuela","fname":"manny","lname":"licayan","fname":"arnold"]
 }
@@ -183,7 +183,7 @@ Response payload:
 
 ## JSON Payload deleteName:
 
-- Response payload:
+Response payload:
 {
          "status":"success","data":null
 }
