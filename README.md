@@ -1,6 +1,6 @@
 "# api" 
 
-##JSON POST with Database Integration
+## JSON POST with Database Integration
 
 Clients can use this JSON POST API endpoint to provide structured data to a server in order to create or change records. The request body sends JSON data, which makes it versatile and simple to work with. After processing, the server delivers an HTTP status code and any required JSON. It can be used for secure user registration, data changes, and bespoke workflows. Endpoint requirements and error-handling processes should be documented properly.
 
